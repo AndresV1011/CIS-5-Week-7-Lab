@@ -5,14 +5,14 @@
 **Type:** Lesson week
 
 
-## Demo video (required)
+## Demo video (required): https://drive.google.com/file/d/1LXWRRDE50Iab5Hz5RzY7Va2vFtrlEt1s/view?usp=sharing
 
 Paste a link to a short video of you running this assignment (tool + code + run).
 Work without a working video link is incomplete.
 
 The video should show both arrays, including the index, the element, the sum, and the high score.
 
-**Your demo:** _add your link here_
+**Your demo:** https://drive.google.com/file/d/1LXWRRDE50Iab5Hz5RzY7Va2vFtrlEt1s/view?usp=sharing)
 
 
 ## What to build
