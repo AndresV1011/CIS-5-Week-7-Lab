@@ -10,24 +10,24 @@ int lab [N] = {70, 70, 85., 90, 75};
 int sum = 0;
 int hi = quiz [0];
 
-cout << "Quiz\n";
+std::cout << "Quiz\n";
 for (int i = 0; i < N; ++i){
-  cout << "[" << i << "]" << quiz[i] << "\n";
+  std::cout << "[" << i << "]" << quiz[i] << "\n";
   sum += quiz[i];
   if (quiz[i] > hi){
     hi = quiz[i];
   }
 }
-cout << "Sum: " << sum << "\n";
-cout << "High: " << hi << "\n";
+std::cout << "Sum: " << sum << "\n";
+std::cout << "High: " << hi << "\n";
 
 sum = 0;
 hi = lab[0];
 
-cout << "Lab\n";
+std::cout << "Lab\n";
 
 for (int i = 0; i < N ; ++i){
-  cout << "[" << i << "]" << lab[i] << "\n";
+  std::cout << "[" << i << "]" << lab[i] << "\n";
   sum += lab[i];
 
   if (lab[i] > hi){
@@ -35,7 +35,7 @@ for (int i = 0; i < N ; ++i){
   }
 }
 
-cout << "Sum: " << sum << "\n";
-cout << "High: " << hi << "\n";
+std::cout << "Sum: " << sum << "\n";
+std::cout << "High: " << hi << "\n";
   return 0;
 }
